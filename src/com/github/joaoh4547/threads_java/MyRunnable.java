@@ -12,7 +12,7 @@ public class MyRunnable implements Runnable{
 		this.name = name;
 		this.time = time;
 		this.id = UUID.randomUUID();
-		new Thread(this).start();
+		
 	}
 	
 	@Override
