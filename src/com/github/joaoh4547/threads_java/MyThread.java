@@ -12,7 +12,7 @@ public class MyThread extends Thread{
 	
 	@Override
 	public void run() {
-		System.out.println(String.format("Executando athread; %s", this.name));
+		System.out.println(String.format("Executando a thread; %s", this.name));
 		
 		for(int  i=0; i<=10;i++) {
 			System.out.println(String.format("Thread %s - contador %d ",this.name, i));
